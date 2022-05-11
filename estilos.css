@@ -1,3 +1,8 @@
+*{
+    font-family: 'Tinos', serif, Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(29, 29, 29);
+}
+
 body{
     text-align: center;
     background-color: rgba(83, 83, 83, 0.26);
@@ -18,12 +23,12 @@ li {
     height: 25%;
 }
 
-    .listaNav{
+.listaNav{
     list-style-type: none;
 }
 
 .listaNav li a{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255) !important;
 }
 
 a {
@@ -39,3 +44,4 @@ img {
     background-color: gray;
 }
 
+small {color: rgb(131, 128, 128);}
