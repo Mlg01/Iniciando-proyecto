@@ -1,5 +1,6 @@
 *{
-    font-family: 'Tinos', serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Tinos', serif, Verdana, Tahoma;
+    box-sizing: border-box;
     color: rgb(29, 29, 29);
 }
 
@@ -9,18 +10,17 @@ body{
 }
 
 ul{
-    text-align: center;
+    display: flex;
     margin-top: 0%;
     margin-bottom: 0%;
+    width: 95%;
 }
 
 li {
-    display: inline-block;
     background-color: rgb(192, 192, 192);
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 20%;
-    height: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 24.5%;
 }
 
 .listaNav{
@@ -28,15 +28,22 @@ li {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color:rgb(180, 171, 171);
 }
 
 img {
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    background-color: gray;
+    padding: 0.5%;
+    background-color: rgb(156, 156, 156);
 }
 
 small {color: rgb(131, 128, 128);}
+
+iframe {
+    padding: 0.5%;
+    background-color: rgb(156, 156, 156);
+}
+
+.disclaimer{
+    display: none;
+}
